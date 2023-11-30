@@ -1,1 +1,18 @@
-key: value
+COLUMNS:
+  id: int64
+  allelectrons_Total: float64
+  density_Total: float64
+  allelectrons_Average: float64
+  val_e_Average: float64
+  atomicweight_Average: float64
+  ionenergy_Average: float64
+  el_neg_chi_Average: float64
+  R_vdw_element_Average: float64
+  R_cov_element_Average: float64
+  zaratio_Average: float64
+  density_Average: float64
+  Hardness: float64
+
+
+TARGET_COLUMN:
+  name: Hardness
