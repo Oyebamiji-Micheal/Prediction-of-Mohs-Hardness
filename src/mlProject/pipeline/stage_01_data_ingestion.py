@@ -5,6 +5,7 @@ from mlProject import logger
 STAGE_NAME = "Data Ingestion Stage"
 
 
+
 class DataIngestionTrainingPipeline:
     def __init__(self):
         pass
@@ -17,12 +18,13 @@ class DataIngestionTrainingPipeline:
         data_ingestion.extract_zip_file()
 
 
+
 if __name__ == '__main__':
     try:
-        logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+        logger.info(f">>>>>> {STAGE_NAME} started <<<<<<")
         obj = DataIngestionTrainingPipeline()
         obj.main()
-        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+        logger.info(f">>>>>> {STAGE_NAME} completed <<<<<<\n\nx==========x")
     except Exception as e:
         logger.exception(e)
         raise e

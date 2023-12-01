@@ -407,3 +407,301 @@ x==========x]
 [2023-11-30 11:57:03,067: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
 
 x==========x]
+[2023-12-03 00:14:19,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:14:19,716: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:14:19,802: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:14:19,841: INFO: common: created directory at: artifacts]
+[2023-12-03 00:14:19,854: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:14:19,859: ERROR: 87962216: Failed to transform and split data with the following error: "'ConfigBox' object has no attribute 'target'"]
+[2023-12-03 00:14:43,733: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:14:43,738: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:14:43,793: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:14:43,800: INFO: common: created directory at: artifacts]
+[2023-12-03 00:14:43,806: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:14:43,810: ERROR: 87962216: Failed to transform and split data with the following error: 'DataTransformationConfig' object has no attribute 'df_path']
+[2023-12-03 00:15:14,492: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:15:14,497: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:15:14,507: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:15:14,511: INFO: common: created directory at: artifacts]
+[2023-12-03 00:15:14,516: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:15:15,539: ERROR: 87962216: Failed to transform and split data with the following error: 'DataTransformation' object has no attribute 'data_transformation']
+[2023-12-03 00:16:18,553: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:16:18,560: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:16:18,585: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:16:18,593: INFO: common: created directory at: artifacts]
+[2023-12-03 00:16:18,597: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:16:19,250: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 00:16:19,314: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 00:16:19,338: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 00:16:19,434: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 00:16:19,461: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 00:16:19,611: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 00:16:22,624: INFO: 1192223349: Pipeline transformation and split data completed successfully]
+[2023-12-03 00:16:22,633: INFO: 1192223349: (8069, 17)]
+[2023-12-03 00:16:22,641: INFO: 1192223349: (2018, 17)]
+[2023-12-03 00:18:44,370: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:18:44,379: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:18:44,393: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:18:44,398: INFO: common: created directory at: artifacts]
+[2023-12-03 00:18:44,407: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:18:44,854: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 00:18:44,883: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 00:18:44,962: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 00:18:44,993: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 00:18:45,058: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 00:18:45,091: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 00:18:48,138: INFO: 1192223349: Pipeline transformation and split data completed successfully]
+[2023-12-03 00:18:48,143: INFO: 1192223349: (8069, 17)]
+[2023-12-03 00:18:48,150: INFO: 1192223349: (2018, 17)]
+[2023-12-03 00:19:05,627: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:19:05,634: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:19:05,643: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:19:05,648: INFO: common: created directory at: artifacts]
+[2023-12-03 00:19:05,652: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:19:05,835: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 00:19:05,914: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 00:19:05,961: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 00:19:05,990: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 00:19:06,043: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 00:19:06,077: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 00:19:08,445: INFO: 1192223349: Pipeline transformation and split data completed successfully]
+[2023-12-03 00:19:08,450: INFO: 1192223349: (8069, 17)]
+[2023-12-03 00:19:08,455: INFO: 1192223349: (2018, 17)]
+[2023-12-03 00:19:21,588: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:19:21,593: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:19:21,602: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:19:21,607: INFO: common: created directory at: artifacts]
+[2023-12-03 00:19:21,611: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:19:21,823: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 00:19:21,872: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 00:19:21,932: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 00:19:21,952: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 00:19:21,990: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 00:19:22,027: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 00:19:24,491: INFO: 2089262673: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 00:19:24,494: INFO: 2089262673: (8069, 17)]
+[2023-12-03 00:19:24,499: INFO: 2089262673: (2018, 17)]
+[2023-12-03 00:19:39,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:19:39,758: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:19:39,769: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:19:39,774: INFO: common: created directory at: artifacts]
+[2023-12-03 00:19:39,780: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:19:39,981: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 00:19:40,012: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 00:19:40,076: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 00:19:40,111: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 00:19:40,141: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 00:19:40,190: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 00:19:42,407: INFO: 2089262673: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 00:19:42,414: INFO: 2089262673: (8069, 17)]
+[2023-12-03 00:19:42,458: INFO: 2089262673: (2018, 17)]
+[2023-12-03 00:20:01,953: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:20:01,958: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:20:01,968: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:20:01,974: INFO: common: created directory at: artifacts]
+[2023-12-03 00:20:01,979: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:20:02,100: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 00:20:02,189: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 00:20:02,261: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 00:20:02,285: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 00:20:02,334: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 00:20:02,354: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 00:20:04,430: INFO: 2089262673: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 00:20:04,438: INFO: 2089262673: (8069, 17)]
+[2023-12-03 00:20:04,442: INFO: 2089262673: (2018, 17)]
+[2023-12-03 00:23:01,351: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:23:01,356: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:23:01,366: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:23:01,371: INFO: common: created directory at: artifacts]
+[2023-12-03 00:23:01,376: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:23:01,772: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 00:23:01,919: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 00:23:01,943: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 00:23:02,141: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 00:23:02,220: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 00:23:02,254: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 00:23:04,496: INFO: 2089262673: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 00:23:04,502: INFO: 2089262673: (8069, 17)]
+[2023-12-03 00:23:04,509: INFO: 2089262673: (2018, 17)]
+[2023-12-03 00:26:41,108: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:26:41,116: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:26:41,135: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 00:26:41,141: INFO: common: created directory at: artifacts]
+[2023-12-03 00:26:41,146: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 00:26:41,299: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 00:26:41,327: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 00:26:41,367: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 00:26:41,397: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 00:26:41,434: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 00:26:41,481: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 00:26:41,507: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 00:26:41,524: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 00:26:41,680: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 00:26:43,155: INFO: 2089262673: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 00:26:43,160: INFO: 2089262673: (8069, 17)]
+[2023-12-03 00:26:43,164: INFO: 2089262673: (2018, 17)]
+[2023-12-01 00:56:55,620: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-01 00:56:55,651: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 00:56:55,680: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 00:56:55,706: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 00:56:55,725: INFO: common: created directory at: artifacts]
+[2023-12-01 00:56:55,747: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-01 00:57:01,685: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 891A:D396:70E594:7626C2:656BC450
+Accept-Ranges: bytes
+Date: Sat, 02 Dec 2023 23:57:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10527-MRS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1701561425.617460,VS0,VE299
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ac519e11b330c40bc721503944dcc5baa928e07e
+Expires: Sun, 03 Dec 2023 00:02:04 GMT
+Source-Age: 0
+
+]
+[2023-12-01 00:57:02,049: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-01 00:57:02,050: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-01 00:57:02,056: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 00:57:02,058: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 00:57:02,064: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 00:57:02,066: INFO: common: created directory at: artifacts]
+[2023-12-01 00:57:02,085: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-01 00:57:02,466: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-01 00:57:02,467: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-01 00:57:02,657: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 00:57:02,660: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 00:57:02,666: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 00:57:02,668: INFO: common: created directory at: artifacts]
+[2023-12-01 00:57:02,690: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-01 00:57:02,691: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-01 01:00:23,161: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 01:00:23,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 01:00:23,358: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 01:00:23,470: INFO: common: created directory at: artifacts]
+[2023-12-01 01:00:23,480: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-01 01:00:25,409: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-01 01:00:25,627: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-01 01:00:25,735: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-01 01:00:25,756: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-01 01:00:25,854: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-01 01:00:25,876: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-01 01:00:25,940: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-01 01:00:26,006: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-01 01:00:26,301: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-01 01:00:52,407: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 01:00:52,413: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 01:00:52,424: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 01:00:52,428: INFO: common: created directory at: artifacts]
+[2023-12-01 01:00:52,432: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-01 01:00:52,506: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-01 01:00:52,528: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-01 01:00:52,559: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-01 01:00:52,585: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-01 01:00:52,636: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-01 01:00:52,664: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-01 01:00:52,687: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-01 01:00:52,701: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-01 01:00:52,740: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-01 01:01:12,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 01:01:12,805: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 01:01:12,815: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 01:01:12,841: INFO: common: created directory at: artifacts]
+[2023-12-01 01:01:12,847: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-01 01:01:12,969: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-01 01:01:13,003: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-01 01:01:13,034: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-01 01:01:13,061: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-01 01:01:13,096: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-01 01:01:13,154: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-01 01:01:13,179: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-01 01:01:13,197: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-01 01:01:13,248: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-01 01:01:16,739: INFO: 2089262673: Pipeline transformation and data splitting completed successfully]
+[2023-12-01 01:01:16,752: INFO: 2089262673: (8069, 17)]
+[2023-12-01 01:01:16,760: INFO: 2089262673: (2018, 17)]
+[2023-12-01 01:03:27,765: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-01 01:03:27,793: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 01:03:27,813: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 01:03:27,848: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 01:03:27,850: INFO: common: created directory at: artifacts]
+[2023-12-01 01:03:27,851: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-01 01:03:34,207: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 891A:D396:70E594:7626C2:656BC450
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 00:03:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10578-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701561818.290104,VS0,VE186
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b183f90e52aa1195fdb328cb67c4ff662f5b046d
+Expires: Sun, 03 Dec 2023 00:08:38 GMT
+Source-Age: 0
+
+]
+[2023-12-01 01:03:34,405: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-01 01:03:34,405: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-01 01:03:34,412: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 01:03:34,414: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 01:03:34,421: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 01:03:34,422: INFO: common: created directory at: artifacts]
+[2023-12-01 01:03:34,423: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-01 01:03:34,631: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-01 01:03:34,632: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-01 01:03:34,640: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-01 01:03:34,642: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-01 01:03:34,660: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-01 01:03:34,662: INFO: common: created directory at: artifacts]
+[2023-12-01 01:03:34,686: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-01 01:03:34,765: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-01 01:03:34,818: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-01 01:03:34,833: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-01 01:03:34,847: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-01 01:03:34,859: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-01 01:03:34,871: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-01 01:03:34,883: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-01 01:03:34,914: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-01 01:03:34,987: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-01 01:03:35,807: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-01 01:03:35,808: INFO: data_transformation: (8069, 17)]
+[2023-12-01 01:03:35,808: INFO: data_transformation: (2018, 17)]
+[2023-12-01 01:03:35,810: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
