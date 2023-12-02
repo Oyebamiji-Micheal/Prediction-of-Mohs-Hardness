@@ -2,7 +2,8 @@ from mlProject.constants import *
 from mlProject.utils.common import read_yaml, create_directories
 from mlProject.entity.config_entity import (DataIngestionConfig,
                                             DataValidationConfig,
-                                            DataTransformationConfig)
+                                            DataTransformationConfig,
+                                            ModelTrainerConfig)
 
 
 class ConfigurationManager:
@@ -62,3 +63,33 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
+    
+
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+        config=self.config.model_trainer
+        params=self.params.LGBMRegressor
+        schema= self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_trainer_config = ModelTrainerConfig(
+            root_dir=config.root_dir,
+            train_data_path=config.train_data_path,
+            test_data_path=config.test_data_path,
+            model_name=config.model_name,
+            max_depth=params.max_depth,
+            num_leaves=params.num_leaves,
+            min_child_samples=params.min_child_samples,
+            learning_rate=params.learning_rate,
+            n_estimators=params.n_estimators,
+            min_child_weight=params.min_child_weight,
+            subsample=params.subsample,
+            colsample_bytree=params.colsample_bytree,
+            reg_alpha=params.reg_alpha,
+            reg_lambda=params.reg_lambda,
+            random_state=params.random_state,
+            extra_trees=params.extra_trees,
+            target_column=schema.name
+        )
+
+        return model_trainer_config

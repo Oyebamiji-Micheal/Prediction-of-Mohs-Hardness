@@ -1,1 +1,13 @@
-key: value
+LGBMRegressor:
+  max_depth: 17
+  num_leaves: 79
+  min_child_samples: 19
+  learning_rate: 0.026031796650176613
+  n_estimators: 3687
+  min_child_weight: 9
+  subsample: 0.7654753397435305
+  colsample_bytree: 0.5486283321524671
+  reg_alpha: 0.3004805843815071
+  reg_lambda: 0.3649876343732527
+  random_state: 42
+  extra_trees: True
