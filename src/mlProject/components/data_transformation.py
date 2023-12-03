@@ -4,10 +4,11 @@ import pandas as pd
 
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
+import joblib
 
 from mlProject import logger
 from mlProject.entity.config_entity import DataTransformationConfig
-from mlProject.components.data_cleaning import FeatureEngineering, FixOutliers, DataPreprocessing
+from mlProject.components.data_cleaning import FeatureEngineering, DataPreprocessing
 
 
 
@@ -27,7 +28,6 @@ class DataTransformation:
         try:
             pipeline = Pipeline([
                 ("Feature Engineering", FeatureEngineering()),
-                ("Fix Outliers", FixOutliers()),
                 ("Data Preprocessing", DataPreprocessing()),
             ])
 
@@ -46,10 +46,18 @@ class DataTransformation:
         """
 
         data = pd.read_csv(self.config.data_path)
-        pipeline = self.data_transformation_pipeline()
 
-        processed_data = pipeline.fit_transform(data)
+        # Drop id and target columns
+        features = data.drop(columns=["id", "Hardness"])
+        target = data["Hardness"].copy()
+
+        pipeline = self.data_transformation_pipeline()
+        processed_data = pipeline.fit_transform(features)
+        processed_data["Hardness"] = target
         
+        # Save transformation pipeline
+        joblib.dump(pipeline, os.path.join(self.config.root_dir, "transformation_pipeline.joblib"))
+
         # Split data into train and test sets
         train, test = train_test_split(processed_data, test_size=0.2, random_state=42)
 

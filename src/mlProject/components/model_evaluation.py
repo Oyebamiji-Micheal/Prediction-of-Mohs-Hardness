@@ -24,19 +24,15 @@ class ModelEvaluation:
     
 
     def save_results(self):
-
         test_data = pd.read_csv(self.config.test_data_path)
-
         model = joblib.load(self.config.model_path)
 
         logger.info("Model loaded successfully")
 
         test_x = test_data.drop([self.config.target_column], axis=1)
-
         test_y = test_data[[self.config.target_column]]
         
         predicted_hardness = model.predict(test_x)
-
         (median_ae, rmse, mean_ae, r2) = self.eval_metrics(test_y, predicted_hardness)
 
         logger.info("Evaluation metrics calculated successfully")

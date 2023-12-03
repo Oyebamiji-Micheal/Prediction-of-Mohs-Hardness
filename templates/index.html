@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mohs Hardness Prediction</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">    
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Mohs Hardness Prediction</h1>
+            <p>End to End Machine Learning Demonstration</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 form-container">
+                <form action="/predict" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="allelectrons_Total">Allelectrons Total</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="allelectrons_Total" placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="density_Total">Density Total</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="density_Total" placeholder="Enter value" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="allelectrons_Average">Allelectrons Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="allelectrons_Average"
+                                placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="val_e_Average">Valence Electrons Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="val_e_Average" placeholder="Enter value" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="atomicweight_Average">Atomic Weight Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="atomicweight_Average"
+                                placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="ionenergy_Average">Ionization Energy Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="ionenergy_Average" placeholder="Enter value" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="el_neg_chi_Average">Electronegativity (Chi) Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="el_neg_chi_Average"
+                                placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="R_vdw_element_Average">Van der Waals Radius Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="R_vdw_element_Average"
+                                placeholder="Enter value" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="R_cov_element_Average">Covalent Radius Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="R_cov_element_Average"
+                                placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="zaratio_Average">Z/A Ratio Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="zaratio_Average" placeholder="Enter value" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="density_Average">Density Average</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="density_Average" placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="dummy_field">Dummy Field</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="dummy_field" placeholder="Not Part of Input" readonly>
+                        </div>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" value="Predict">
+
+                    <div class="icons">
+                        <!-- Add your GitHub, LinkedIn, and Twitter URLs -->
+                        <a href="https://github.com/Oyebamiji-Micheal/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/oyebamiji-micheal/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/MichealOjuri" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and Font Awesome Icons -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+</body>
+
+</html>

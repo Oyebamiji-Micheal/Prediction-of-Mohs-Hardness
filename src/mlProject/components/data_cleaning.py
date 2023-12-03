@@ -11,6 +11,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.preprocessing import MinMaxScaler
 
 
+
 class FeatureEngineering(BaseEstimator, TransformerMixin):
 
     def fit(self, X, y=None):
@@ -49,43 +50,6 @@ class FeatureEngineering(BaseEstimator, TransformerMixin):
             raise e
         
 
-class FixOutliers(BaseEstimator, TransformerMixin):
-
-    def fit(self, X, y=None):
-        return self
-
-    def transform(self, X: pd.DataFrame) -> pd.DataFrame:
-        """Transform the data by fixing outliers.
-        
-        Args:
-            X (pd.DataFrame): The data to transform.
-        Returns:
-            pd.DataFrame: The transformed data.
-        """
-        try:
-            # Fixing outliers
-            # Note: The following outliers were hard-coded and removed using Tukey's method
-            outlier_columns = [
-                "allelectrons_Total", "atomicweight_ionenergy_Ratio", "normalized_density", 
-                "el_neg_chi_R_vdw_Ratio", "electrons_per_atomicweight", "specific_electron_count"
-            ]
-            
-            for column in outlier_columns:
-                IQR = X[column].quantile(0.75) - X[column].quantile(0.25)
-                Lower_fence = X[column].quantile(0.25) - (IQR * 3)
-                Upper_fence = X[column].quantile(0.75) + (IQR * 3)
-                logger.info(f"{column} outliers are values < {Lower_fence} or > {Upper_fence}")
-            
-            X = X[X[column] <= Upper_fence]
-
-            logger.info("Outliers fixed successfully")
-
-            return X
-
-        except Exception as e:
-            logger.error(f"Fixing outliers failed with the following error: {e}")
-            raise e
-        
 
 class DataPreprocessing(BaseEstimator, TransformerMixin):
 
@@ -100,24 +64,18 @@ class DataPreprocessing(BaseEstimator, TransformerMixin):
         Returns:
             pd.DataFrame: The transformed data.
         """
-        try:
-            # Data preprocessing
-            temp = X.drop(columns=["id", "Hardness"], axis=1)
+        try:            
+            # Select numerical columns for scaling
+            num_cols = X.select_dtypes(include=np.number).columns.to_list()
 
-            num_cols = temp.select_dtypes(include=np.number).columns.to_list()
-
+            # Scale numerical columns using MinMaxScaler
             scaler = MinMaxScaler()
-            matrix = scaler.fit_transform(temp[num_cols])
-
+            matrix = scaler.fit_transform(X[num_cols])
             temp = pd.DataFrame(matrix, columns=num_cols)
-
-            hardness = np.array(X["Hardness"])
-            
-            temp["Hardness"] = hardness
 
             logger.info("Data preprocessing completed successfully")
 
-            return temp
+            return X
 
         except Exception as e:
             logger.error(f"Data preprocessing failed with the following error: {e}")
