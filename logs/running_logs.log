@@ -6027,3 +6027,8 @@ x==========x]
 [2023-12-03 22:42:55,864: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2023-12-03 22:42:56,653: INFO: _internal: 127.0.0.1 - - [03/Dec/2023 22:42:56] "GET /train HTTP/1.1" 200 -]
+[2023-12-03 22:42:58,582: INFO: _internal: 127.0.0.1 - - [03/Dec/2023 22:42:58] "[36mGET /static/css/results.css HTTP/1.1[0m" 304 -]
+[2023-12-03 22:42:58,771: INFO: _internal: 127.0.0.1 - - [03/Dec/2023 22:42:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2023-12-03 22:43:11,507: INFO: _internal: 127.0.0.1 - - [03/Dec/2023 22:43:11] "GET / HTTP/1.1" 200 -]
+[2023-12-03 22:43:11,730: INFO: _internal: 127.0.0.1 - - [03/Dec/2023 22:43:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
