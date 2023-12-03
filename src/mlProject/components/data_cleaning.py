@@ -102,18 +102,22 @@ class DataPreprocessing(BaseEstimator, TransformerMixin):
         """
         try:
             # Data preprocessing
-            X_train = X.drop(columns=["id"], axis=1)
+            temp = X.drop(columns=["id", "Hardness"], axis=1)
 
-            num_cols = X_train.select_dtypes(include=np.number).columns.to_list()
+            num_cols = temp.select_dtypes(include=np.number).columns.to_list()
 
             scaler = MinMaxScaler()
-            matrix = scaler.fit_transform(X_train[num_cols])
+            matrix = scaler.fit_transform(temp[num_cols])
 
-            X_train = pd.DataFrame(matrix, columns=num_cols)
+            temp = pd.DataFrame(matrix, columns=num_cols)
+
+            hardness = np.array(X["Hardness"])
             
+            temp["Hardness"] = hardness
+
             logger.info("Data preprocessing completed successfully")
 
-            return X_train
+            return temp
 
         except Exception as e:
             logger.error(f"Data preprocessing failed with the following error: {e}")

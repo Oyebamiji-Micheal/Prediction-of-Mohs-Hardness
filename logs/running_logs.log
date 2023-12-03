@@ -875,3 +875,1806 @@ x==========x]
 [2023-12-01 07:30:19,916: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2023-12-03 07:58:27,327: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 07:58:27,443: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 07:58:27,466: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 07:58:27,490: INFO: common: created directory at: artifacts]
+[2023-12-03 08:00:38,883: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:00:38,896: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:00:38,908: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:00:38,914: INFO: common: created directory at: artifacts]
+[2023-12-03 08:00:38,919: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 08:00:42,254: INFO: 3311094104: Model loaded successfully]
+[2023-12-03 08:00:48,701: INFO: 3311094104: Evaluation metrics calculated successfully]
+[2023-12-03 08:00:48,708: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-03 08:04:31,134: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:04:31,152: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:04:31,177: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:04:31,229: INFO: common: created directory at: artifacts]
+[2023-12-03 08:04:31,233: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:04:31,832: INFO: 4250134229: Training model...]
+[2023-12-03 08:04:45,918: INFO: 4250134229: Model trained successfully!]
+[2023-12-03 08:04:48,332: INFO: 4250134229: Model saved successfully!]
+[2023-12-03 08:08:50,488: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:08:50,498: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:08:50,508: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:08:50,513: INFO: common: created directory at: artifacts]
+[2023-12-03 08:08:50,517: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:08:50,997: INFO: 4250134229: Training model...]
+[2023-12-03 08:09:06,687: INFO: 4250134229: Model trained successfully!]
+[2023-12-03 08:09:09,197: INFO: 4250134229: Model saved successfully!]
+[2023-12-03 08:09:18,163: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:09:18,174: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:09:18,186: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:09:18,192: INFO: common: created directory at: artifacts]
+[2023-12-03 08:09:18,197: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:09:18,672: INFO: 3480805107: Training model...]
+[2023-12-03 08:09:30,673: INFO: 3480805107: Model trained successfully!]
+[2023-12-03 08:09:32,737: INFO: 3480805107: Model saved successfully!]
+[2023-12-03 08:16:39,941: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:16:39,956: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:16:40,024: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:16:40,035: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:16:40,049: INFO: common: created directory at: artifacts]
+[2023-12-03 08:16:40,051: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:16:44,761: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:16:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10551-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701587802.867011,VS0,VE155
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 355652902d1be9b0332284e2de76148e38843f84
+Expires: Sun, 03 Dec 2023 07:21:42 GMT
+Source-Age: 0
+
+]
+[2023-12-03 08:16:45,280: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:16:45,280: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:16:45,290: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:16:45,295: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:16:45,302: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:16:45,304: INFO: common: created directory at: artifacts]
+[2023-12-03 08:16:45,309: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:16:45,538: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:16:45,539: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:16:45,576: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:16:45,583: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:16:45,591: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:16:45,595: INFO: common: created directory at: artifacts]
+[2023-12-03 08:16:45,597: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:16:45,770: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:16:45,824: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:16:45,839: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:16:45,863: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:16:45,883: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:16:45,993: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:16:46,012: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:16:46,063: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:16:46,198: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:16:47,004: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:16:47,005: INFO: data_transformation: (8069, 16)]
+[2023-12-03 08:16:47,005: INFO: data_transformation: (2018, 16)]
+[2023-12-03 08:16:47,007: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:16:47,008: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:16:47,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:16:47,026: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:16:47,034: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:16:47,037: INFO: common: created directory at: artifacts]
+[2023-12-03 08:16:47,041: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:16:47,453: ERROR: main: "['Hardness'] not found in axis"]
+Traceback (most recent call last):
+  File "C:\Users\Emachines\Documents\GitHub\Prediction-of-Mohs-Hardness\main.py", line 49, in <module>
+    data_ingestion.main()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer_config.train()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\model_trainer.py", line 20, in train
+    X_train = train_data.drop([self.config.target_column], axis=1)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\frame.py", line 5396, in drop
+    return super().drop(
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 4505, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 4546, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\indexes\base.py", line 6977, in drop
+    raise KeyError(f"{list(labels[mask])} not found in axis")
+KeyError: "['Hardness'] not found in axis"
+[2023-12-03 08:23:42,313: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:23:42,322: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:23:42,328: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:23:42,334: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:23:42,338: INFO: common: created directory at: artifacts]
+[2023-12-03 08:23:42,343: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:23:46,597: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:23:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10533-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701588224.715440,VS0,VE171
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5223e10f8a231f996abf7b6d75b25715f81092ac
+Expires: Sun, 03 Dec 2023 07:28:43 GMT
+Source-Age: 0
+
+]
+[2023-12-03 08:23:46,700: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:23:46,700: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:23:46,714: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:23:46,722: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:23:46,737: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:23:46,739: INFO: common: created directory at: artifacts]
+[2023-12-03 08:23:46,757: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:23:46,886: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:23:46,887: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:23:46,900: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:23:46,905: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:23:46,911: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:23:46,913: INFO: common: created directory at: artifacts]
+[2023-12-03 08:23:46,915: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:23:47,033: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:23:47,061: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:23:47,075: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:23:47,089: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:23:47,111: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:23:47,130: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:23:47,154: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:23:47,165: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:23:47,369: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:23:48,453: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:23:48,454: INFO: data_transformation: (8316, 17)]
+[2023-12-03 08:23:48,454: INFO: data_transformation: (2080, 17)]
+[2023-12-03 08:23:48,456: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:23:48,457: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:23:48,512: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:23:48,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:23:48,525: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:23:48,536: INFO: common: created directory at: artifacts]
+[2023-12-03 08:23:48,538: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:23:48,846: INFO: model_trainer: Training model...]
+[2023-12-03 08:24:04,039: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:24:06,673: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:24:06,693: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:25:20,621: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:25:20,658: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:25:20,669: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:25:20,675: INFO: common: created directory at: artifacts]
+[2023-12-03 08:25:20,680: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 08:25:22,583: INFO: 2579368062: Model loaded successfully]
+[2023-12-03 08:26:45,927: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:26:45,939: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:26:45,956: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:26:45,964: INFO: common: created directory at: artifacts]
+[2023-12-03 08:26:45,973: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 08:26:48,324: INFO: 2366583692: Model loaded successfully]
+[2023-12-03 08:27:20,416: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:27:20,427: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:27:20,438: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:27:20,443: INFO: common: created directory at: artifacts]
+[2023-12-03 08:27:20,448: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 08:27:21,727: INFO: 1583951729: Model loaded successfully]
+[2023-12-03 08:27:45,912: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:27:45,924: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:27:45,936: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:27:45,941: INFO: common: created directory at: artifacts]
+[2023-12-03 08:27:45,946: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 08:27:47,573: INFO: 1475998426: Model loaded successfully]
+[2023-12-03 08:28:45,065: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:28:45,075: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:28:45,094: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:28:45,110: INFO: common: created directory at: artifacts]
+[2023-12-03 08:28:45,122: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 08:28:46,992: INFO: 916857126: Model loaded successfully]
+[2023-12-03 08:32:59,025: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:32:59,037: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:32:59,046: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:32:59,054: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:32:59,056: INFO: common: created directory at: artifacts]
+[2023-12-03 08:32:59,057: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:33:01,751: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:33:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10570-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701588780.314555,VS0,VE161
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 11392fb8bb42d355f68c261772ef20d796e61112
+Expires: Sun, 03 Dec 2023 07:38:00 GMT
+Source-Age: 0
+
+]
+[2023-12-03 08:33:01,858: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:33:01,859: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:33:01,868: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:33:01,874: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:33:01,880: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:33:01,881: INFO: common: created directory at: artifacts]
+[2023-12-03 08:33:01,882: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:33:01,996: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:33:01,997: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:33:02,018: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:33:02,024: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:33:02,031: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:33:02,033: INFO: common: created directory at: artifacts]
+[2023-12-03 08:33:02,035: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:33:02,121: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:33:02,143: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:33:02,161: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:33:02,180: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:33:02,197: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:33:02,217: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:33:02,233: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:33:02,247: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:33:02,335: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:33:03,192: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:33:03,192: INFO: data_transformation: (8069, 17)]
+[2023-12-03 08:33:03,193: INFO: data_transformation: (2018, 17)]
+[2023-12-03 08:33:03,195: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:33:03,196: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:33:03,205: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:33:03,211: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:33:03,216: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:33:03,218: INFO: common: created directory at: artifacts]
+[2023-12-03 08:33:03,219: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:33:03,476: INFO: model_trainer: Training model...]
+[2023-12-03 08:33:13,751: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:33:15,942: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:33:15,971: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:33:43,234: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:33:43,244: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:33:43,255: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:33:43,264: INFO: common: created directory at: artifacts]
+[2023-12-03 08:33:43,271: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:33:43,577: INFO: 3480805107: Training model...]
+[2023-12-03 08:34:03,280: INFO: 3480805107: Model trained successfully!]
+[2023-12-03 08:34:10,011: INFO: 3480805107: Model saved successfully!]
+[2023-12-03 08:36:09,438: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:36:09,450: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:36:09,461: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:36:09,467: INFO: common: created directory at: artifacts]
+[2023-12-03 08:36:09,472: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 08:36:10,682: INFO: 916857126: Model loaded successfully]
+[2023-12-03 08:37:36,658: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:37:36,700: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:37:36,723: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:37:36,730: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:37:36,734: INFO: common: created directory at: artifacts]
+[2023-12-03 08:37:36,749: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:37:39,292: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:37:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10553-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701589058.375047,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6599df1c06cf047a1651104d818f92c612294114
+Expires: Sun, 03 Dec 2023 07:42:38 GMT
+Source-Age: 278
+
+]
+[2023-12-03 08:37:39,504: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:37:39,504: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:37:39,518: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:37:39,525: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:37:39,553: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:37:39,554: INFO: common: created directory at: artifacts]
+[2023-12-03 08:37:39,556: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:37:39,880: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:37:39,881: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:37:39,935: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:37:39,945: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:37:39,953: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:37:39,990: INFO: common: created directory at: artifacts]
+[2023-12-03 08:37:39,993: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:37:40,142: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:37:40,167: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:37:40,191: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:37:40,216: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:37:40,298: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:37:40,316: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:37:40,394: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:37:40,416: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:37:40,755: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:37:41,861: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:37:41,861: INFO: data_transformation: (8069, 16)]
+[2023-12-03 08:37:41,862: INFO: data_transformation: (2018, 16)]
+[2023-12-03 08:37:41,864: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:37:41,864: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:37:41,898: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:37:41,919: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:37:41,928: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:37:41,968: INFO: common: created directory at: artifacts]
+[2023-12-03 08:37:41,971: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:37:42,221: ERROR: main: "['Hardness'] not found in axis"]
+Traceback (most recent call last):
+  File "C:\Users\Emachines\Documents\GitHub\Prediction-of-Mohs-Hardness\main.py", line 49, in <module>
+    data_ingestion.main()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer_config.train()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\model_trainer.py", line 20, in train
+    X_train = train_data.drop([self.config.target_column], axis=1)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\frame.py", line 5396, in drop
+    return super().drop(
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 4505, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 4546, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\indexes\base.py", line 6977, in drop
+    raise KeyError(f"{list(labels[mask])} not found in axis")
+KeyError: "['Hardness'] not found in axis"
+[2023-12-03 08:38:27,846: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:38:27,856: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:38:27,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:38:27,868: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:38:27,869: INFO: common: created directory at: artifacts]
+[2023-12-03 08:38:27,870: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:38:27,871: INFO: data_ingestion: File already exists of size: ~ 562 KB]
+[2023-12-03 08:38:27,958: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:38:27,959: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:38:27,969: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:38:27,974: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:38:27,981: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:38:27,982: INFO: common: created directory at: artifacts]
+[2023-12-03 08:38:27,983: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:38:28,092: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:38:28,092: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:38:28,109: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:38:28,114: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:38:28,121: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:38:28,123: INFO: common: created directory at: artifacts]
+[2023-12-03 08:38:28,124: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:38:28,242: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:38:28,260: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:38:28,291: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:38:28,307: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:38:28,321: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:38:28,390: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:38:28,416: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:38:28,508: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:38:28,713: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:38:29,859: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:38:29,860: INFO: data_transformation: (8069, 17)]
+[2023-12-03 08:38:29,860: INFO: data_transformation: (2018, 17)]
+[2023-12-03 08:38:29,862: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:38:29,863: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:38:29,871: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:38:29,877: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:38:29,882: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:38:29,884: INFO: common: created directory at: artifacts]
+[2023-12-03 08:38:29,885: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:38:30,163: INFO: model_trainer: Training model...]
+[2023-12-03 08:38:38,668: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:38:40,017: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:38:40,030: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:40:03,547: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:40:03,561: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:40:03,569: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:40:03,575: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:40:03,577: INFO: common: created directory at: artifacts]
+[2023-12-03 08:40:03,580: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:40:05,887: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:40:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10551-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701589205.768278,VS0,VE155
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 09607f28647717ecd4e228b4f01331f1a05a4bc3
+Expires: Sun, 03 Dec 2023 07:45:04 GMT
+Source-Age: 0
+
+]
+[2023-12-03 08:40:06,052: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:40:06,053: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:40:06,066: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:40:06,072: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:40:06,081: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:40:06,082: INFO: common: created directory at: artifacts]
+[2023-12-03 08:40:06,084: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:40:06,255: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:40:06,255: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:40:06,272: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:40:06,281: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:40:06,290: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:40:06,291: INFO: common: created directory at: artifacts]
+[2023-12-03 08:40:06,303: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:40:06,529: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:40:06,557: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:40:06,670: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:40:06,691: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:40:06,740: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:40:06,772: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:40:06,913: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:40:06,935: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:40:07,302: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:40:08,396: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:40:08,396: INFO: data_transformation: (8069, 17)]
+[2023-12-03 08:40:08,397: INFO: data_transformation: (2018, 17)]
+[2023-12-03 08:40:08,398: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:40:08,398: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:40:08,411: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:40:08,417: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:40:08,423: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:40:08,427: INFO: common: created directory at: artifacts]
+[2023-12-03 08:40:08,429: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:40:08,712: INFO: model_trainer: Training model...]
+[2023-12-03 08:40:35,057: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:40:39,594: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:40:39,684: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:41:54,522: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:41:54,537: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:41:54,544: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:41:54,552: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:41:54,556: INFO: common: created directory at: artifacts]
+[2023-12-03 08:41:54,558: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:41:56,735: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:41:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10526-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701589316.702264,VS0,VE4
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 688a5503fd021c045a076329ba820240d663c7af
+Expires: Sun, 03 Dec 2023 07:46:55 GMT
+Source-Age: 111
+
+]
+[2023-12-03 08:41:56,906: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:41:56,908: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:41:56,919: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:41:56,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:41:56,934: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:41:56,935: INFO: common: created directory at: artifacts]
+[2023-12-03 08:41:56,936: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:41:57,131: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:41:57,133: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:41:57,149: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:41:57,155: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:41:57,166: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:41:57,224: INFO: common: created directory at: artifacts]
+[2023-12-03 08:41:57,237: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:41:57,599: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:41:57,623: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:41:57,643: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:41:57,704: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:41:57,767: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:41:57,801: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:41:57,874: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:41:57,891: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:41:57,995: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:41:59,018: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:41:59,019: INFO: data_transformation: (8069, 16)]
+[2023-12-03 08:41:59,019: INFO: data_transformation: (2018, 16)]
+[2023-12-03 08:41:59,025: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:41:59,025: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:41:59,037: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:41:59,047: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:41:59,065: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:41:59,067: INFO: common: created directory at: artifacts]
+[2023-12-03 08:41:59,082: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:41:59,318: ERROR: main: "['Hardness'] not found in axis"]
+Traceback (most recent call last):
+  File "C:\Users\Emachines\Documents\GitHub\Prediction-of-Mohs-Hardness\main.py", line 49, in <module>
+    data_ingestion.main()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer_config.train()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\model_trainer.py", line 20, in train
+    X_train = train_data.drop([self.config.target_column], axis=1)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\frame.py", line 5396, in drop
+    return super().drop(
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 4505, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 4546, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\indexes\base.py", line 6977, in drop
+    raise KeyError(f"{list(labels[mask])} not found in axis")
+KeyError: "['Hardness'] not found in axis"
+[2023-12-03 08:43:09,417: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:43:09,427: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:43:09,433: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:43:09,438: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:43:09,441: INFO: common: created directory at: artifacts]
+[2023-12-03 08:43:09,443: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:43:11,735: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:43:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10533-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701589391.676460,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d43d7ffd5b315e2127d8e93d20aedc60e93c8cfb
+Expires: Sun, 03 Dec 2023 07:48:10 GMT
+Source-Age: 186
+
+]
+[2023-12-03 08:43:11,848: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:43:11,849: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:43:11,864: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:43:11,871: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:43:11,879: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:43:11,880: INFO: common: created directory at: artifacts]
+[2023-12-03 08:43:11,882: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:43:12,077: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:43:12,079: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:43:12,093: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:43:12,100: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:43:12,109: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:43:12,112: INFO: common: created directory at: artifacts]
+[2023-12-03 08:43:12,117: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:43:12,219: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:43:12,242: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:43:12,254: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:43:12,288: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:43:12,322: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:43:12,404: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:43:12,425: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:43:12,455: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:43:12,671: ERROR: data_cleaning: Data preprocessing failed with the following error: 'Hardness']
+[2023-12-03 08:43:12,672: ERROR: stage_03_data_transformation: 'Hardness']
+Traceback (most recent call last):
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\indexes\base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Hardness'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 24, in main
+    data_transformation.transform_split_data()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_transformation.py", line 51, in transform_split_data
+    processed_data = pipeline.fit_transform(data)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\pipeline.py", line 446, in fit_transform
+    return last_step.fit_transform(Xt, y, **fit_params_last_step)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py", line 848, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 125, in transform
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 117, in transform
+    print(temp["Hardness"].shape)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\frame.py", line 3805, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Hardness'
+[2023-12-03 08:43:12,860: ERROR: main: 'Hardness']
+Traceback (most recent call last):
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\indexes\base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Hardness'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Emachines\Documents\GitHub\Prediction-of-Mohs-Hardness\main.py", line 37, in <module>
+    data_ingestion.main()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 31, in main
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 24, in main
+    data_transformation.transform_split_data()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_transformation.py", line 51, in transform_split_data
+    processed_data = pipeline.fit_transform(data)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\pipeline.py", line 446, in fit_transform
+    return last_step.fit_transform(Xt, y, **fit_params_last_step)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py", line 848, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 125, in transform
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 117, in transform
+    print(temp["Hardness"].shape)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\frame.py", line 3805, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Hardness'
+[2023-12-03 08:44:18,076: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:44:18,088: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:44:18,095: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:44:18,103: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:44:18,105: INFO: common: created directory at: artifacts]
+[2023-12-03 08:44:18,107: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:44:20,204: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:44:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10567-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701589459.283195,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6f4da5a0a14ca19bc15b725fe6165e6b141981e1
+Expires: Sun, 03 Dec 2023 07:49:19 GMT
+Source-Age: 254
+
+]
+[2023-12-03 08:44:20,326: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:44:20,327: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:44:20,336: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:44:20,342: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:44:20,347: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:44:20,349: INFO: common: created directory at: artifacts]
+[2023-12-03 08:44:20,350: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:44:20,457: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:44:20,458: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:44:20,471: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:44:20,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:44:20,482: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:44:20,483: INFO: common: created directory at: artifacts]
+[2023-12-03 08:44:20,488: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:44:20,621: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:44:20,635: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:44:20,647: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:44:20,658: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:44:20,672: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:44:20,687: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:44:20,709: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:44:20,724: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:44:20,769: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:44:21,656: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:44:21,657: INFO: data_transformation: (8069, 16)]
+[2023-12-03 08:44:21,657: INFO: data_transformation: (2018, 16)]
+[2023-12-03 08:44:21,659: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:44:21,660: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:44:21,669: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:44:21,675: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:44:21,680: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:44:21,689: INFO: common: created directory at: artifacts]
+[2023-12-03 08:44:21,691: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:44:21,918: ERROR: main: "['Hardness'] not found in axis"]
+Traceback (most recent call last):
+  File "C:\Users\Emachines\Documents\GitHub\Prediction-of-Mohs-Hardness\main.py", line 49, in <module>
+    data_ingestion.main()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer_config.train()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\model_trainer.py", line 20, in train
+    X_train = train_data.drop([self.config.target_column], axis=1)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\frame.py", line 5396, in drop
+    return super().drop(
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 4505, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 4546, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\indexes\base.py", line 6977, in drop
+    raise KeyError(f"{list(labels[mask])} not found in axis")
+KeyError: "['Hardness'] not found in axis"
+[2023-12-03 08:45:33,771: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:45:33,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:45:33,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:45:33,791: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:45:33,794: INFO: common: created directory at: artifacts]
+[2023-12-03 08:45:33,796: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:45:36,057: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:45:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10546-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701589535.757562,VS0,VE163
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3e9223bbdb60290c72351472d7e4ed1114d2566f
+Expires: Sun, 03 Dec 2023 07:50:34 GMT
+Source-Age: 0
+
+]
+[2023-12-03 08:45:36,138: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:45:36,141: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:45:36,151: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:45:36,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:45:36,163: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:45:36,165: INFO: common: created directory at: artifacts]
+[2023-12-03 08:45:36,167: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:45:36,277: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:45:36,277: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:45:36,289: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:45:36,294: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:45:36,300: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:45:36,302: INFO: common: created directory at: artifacts]
+[2023-12-03 08:45:36,305: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:45:36,510: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:45:36,540: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:45:36,569: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:45:36,589: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:45:36,640: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:45:36,739: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:45:36,818: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:45:36,831: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:45:36,957: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:45:37,845: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:45:37,846: INFO: data_transformation: (8316, 17)]
+[2023-12-03 08:45:37,846: INFO: data_transformation: (2080, 17)]
+[2023-12-03 08:45:37,848: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:45:37,849: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:45:37,858: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:45:37,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:45:37,871: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:45:37,873: INFO: common: created directory at: artifacts]
+[2023-12-03 08:45:37,882: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:45:38,151: INFO: model_trainer: Training model...]
+[2023-12-03 08:45:59,774: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:46:03,976: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:46:03,998: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:47:37,739: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:47:37,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:47:37,756: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:47:37,765: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:47:37,768: INFO: common: created directory at: artifacts]
+[2023-12-03 08:47:37,770: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:47:40,181: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:47:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10540-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701589659.904174,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7cea62a40d4924d4eab9834b905a9a35ef555391
+Expires: Sun, 03 Dec 2023 07:52:38 GMT
+Source-Age: 124
+
+]
+[2023-12-03 08:47:40,311: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:47:40,312: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:47:40,322: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:47:40,332: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:47:40,352: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:47:40,353: INFO: common: created directory at: artifacts]
+[2023-12-03 08:47:40,355: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:47:40,530: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:47:40,530: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:47:40,547: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:47:40,558: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:47:40,577: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:47:40,580: INFO: common: created directory at: artifacts]
+[2023-12-03 08:47:40,584: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:47:40,982: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:47:41,020: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:47:41,049: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:47:41,109: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:47:41,148: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:47:41,194: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:47:41,231: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:47:41,261: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:47:41,558: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:47:42,646: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:47:42,647: INFO: data_transformation: (8316, 17)]
+[2023-12-03 08:47:42,651: INFO: data_transformation: (2080, 17)]
+[2023-12-03 08:47:42,653: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:47:42,653: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:47:42,668: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:47:42,673: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:47:42,680: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:47:42,687: INFO: common: created directory at: artifacts]
+[2023-12-03 08:47:42,690: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:47:42,969: INFO: model_trainer: Training model...]
+[2023-12-03 08:48:19,334: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:48:33,615: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:48:33,754: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:49:06,242: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:49:06,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:49:06,256: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:49:06,262: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:49:06,265: INFO: common: created directory at: artifacts]
+[2023-12-03 08:49:06,267: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:49:06,342: ERROR: main: <urlopen error [Errno 11001] getaddrinfo failed>]
+Traceback (most recent call last):
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1415, in connect
+    super().connect()
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Emachines\Documents\GitHub\Prediction-of-Mohs-Hardness\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+[2023-12-03 08:49:59,624: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:49:59,633: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:49:59,638: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:49:59,644: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:49:59,645: INFO: common: created directory at: artifacts]
+[2023-12-03 08:49:59,646: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:50:01,696: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:50:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10579-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701589801.894333,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 65ca651040cb5cd4a5f2ae3b4abaa9ecf25408be
+Expires: Sun, 03 Dec 2023 07:55:00 GMT
+Source-Age: 266
+
+]
+[2023-12-03 08:50:01,848: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:50:01,848: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:50:01,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:50:01,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:50:01,869: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:50:01,870: INFO: common: created directory at: artifacts]
+[2023-12-03 08:50:01,871: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:50:02,021: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:50:02,021: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:50:02,034: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:50:02,039: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:50:02,045: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:50:02,048: INFO: common: created directory at: artifacts]
+[2023-12-03 08:50:02,051: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:50:02,165: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:50:02,188: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:50:02,211: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:50:02,233: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:50:02,247: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:50:02,263: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:50:02,284: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:50:02,300: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:50:02,464: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:50:03,429: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:50:03,430: INFO: data_transformation: (8316, 17)]
+[2023-12-03 08:50:03,430: INFO: data_transformation: (2080, 17)]
+[2023-12-03 08:50:03,432: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:50:03,432: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:50:03,441: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:50:03,446: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:50:03,452: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:50:03,453: INFO: common: created directory at: artifacts]
+[2023-12-03 08:50:03,454: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:50:03,691: INFO: model_trainer: Training model...]
+[2023-12-03 08:50:24,730: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:50:29,797: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:50:29,923: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:51:22,906: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:51:22,915: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:51:22,924: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:51:22,930: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:51:22,931: INFO: common: created directory at: artifacts]
+[2023-12-03 08:51:22,937: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:51:22,939: INFO: data_ingestion: File already exists of size: ~ 562 KB]
+[2023-12-03 08:51:23,177: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:51:23,178: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:51:23,191: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:51:23,201: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:51:23,208: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:51:23,209: INFO: common: created directory at: artifacts]
+[2023-12-03 08:51:23,224: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:51:23,457: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:51:23,459: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:51:23,474: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:51:23,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:51:23,488: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:51:23,490: INFO: common: created directory at: artifacts]
+[2023-12-03 08:51:23,492: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:51:23,613: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:51:23,633: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:51:23,660: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:51:23,710: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:51:23,743: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:51:23,789: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:51:23,811: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:51:23,826: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:51:23,895: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:51:24,968: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:51:24,969: INFO: data_transformation: (8069, 17)]
+[2023-12-03 08:51:24,969: INFO: data_transformation: (2018, 17)]
+[2023-12-03 08:51:24,971: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:51:24,971: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:51:24,984: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:51:24,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:51:24,999: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:51:25,001: INFO: common: created directory at: artifacts]
+[2023-12-03 08:51:25,083: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:51:25,834: INFO: model_trainer: Training model...]
+[2023-12-03 08:51:39,481: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:51:41,284: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:51:41,301: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:54:57,090: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:54:57,099: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:54:57,105: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:54:57,111: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:54:57,113: INFO: common: created directory at: artifacts]
+[2023-12-03 08:54:57,114: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:55:00,738: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:54:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10567-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701590099.553638,VS0,VE157
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 988e17b0d9aeec1e6bcefdcd849be0bb0f8a6611
+Expires: Sun, 03 Dec 2023 07:59:58 GMT
+Source-Age: 0
+
+]
+[2023-12-03 08:55:00,829: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:55:00,830: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:55:00,841: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:55:00,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:55:00,854: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:55:00,856: INFO: common: created directory at: artifacts]
+[2023-12-03 08:55:00,857: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:55:00,956: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:55:00,956: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:55:00,969: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:55:00,976: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:55:00,982: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:55:00,984: INFO: common: created directory at: artifacts]
+[2023-12-03 08:55:00,986: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:55:01,144: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:55:01,175: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:55:01,199: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:55:01,334: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:55:01,427: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:55:01,448: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:55:01,528: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:55:01,544: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:55:01,582: ERROR: data_cleaning: Data preprocessing failed with the following error: 'Series' object has no attribute 'toarray']
+[2023-12-03 08:55:01,583: ERROR: stage_03_data_transformation: 'Series' object has no attribute 'toarray']
+Traceback (most recent call last):
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 24, in main
+    data_transformation.transform_split_data()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_transformation.py", line 51, in transform_split_data
+    processed_data = pipeline.fit_transform(data)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\pipeline.py", line 446, in fit_transform
+    return last_step.fit_transform(Xt, y, **fit_params_last_step)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py", line 848, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 124, in transform
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 114, in transform
+    hardness = X["Hardness"].toarray().copy()
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 5902, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'toarray'
+[2023-12-03 08:55:01,695: ERROR: main: 'Series' object has no attribute 'toarray']
+Traceback (most recent call last):
+  File "C:\Users\Emachines\Documents\GitHub\Prediction-of-Mohs-Hardness\main.py", line 37, in <module>
+    data_ingestion.main()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 31, in main
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 24, in main
+    data_transformation.transform_split_data()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_transformation.py", line 51, in transform_split_data
+    processed_data = pipeline.fit_transform(data)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\pipeline.py", line 446, in fit_transform
+    return last_step.fit_transform(Xt, y, **fit_params_last_step)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py", line 848, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 124, in transform
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 114, in transform
+    hardness = X["Hardness"].toarray().copy()
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 5902, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'toarray'
+[2023-12-03 08:55:43,805: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:55:43,814: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:55:43,819: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:55:43,825: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:55:43,827: INFO: common: created directory at: artifacts]
+[2023-12-03 08:55:43,828: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:55:43,829: INFO: data_ingestion: File already exists of size: ~ 562 KB]
+[2023-12-03 08:55:43,915: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:55:43,915: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:55:43,923: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:55:43,929: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:55:43,934: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:55:43,936: INFO: common: created directory at: artifacts]
+[2023-12-03 08:55:43,937: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:55:44,044: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:55:44,045: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:55:44,056: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:55:44,061: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:55:44,067: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:55:44,068: INFO: common: created directory at: artifacts]
+[2023-12-03 08:55:44,069: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:55:44,153: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:55:44,165: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:55:44,176: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:55:44,190: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:55:44,210: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:55:44,236: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:55:44,249: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:55:44,266: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:55:44,301: ERROR: data_cleaning: Data preprocessing failed with the following error: 'DataFrame' object has no attribute 'toarray']
+[2023-12-03 08:55:44,302: ERROR: stage_03_data_transformation: 'DataFrame' object has no attribute 'toarray']
+Traceback (most recent call last):
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 24, in main
+    data_transformation.transform_split_data()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_transformation.py", line 51, in transform_split_data
+    processed_data = pipeline.fit_transform(data)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\pipeline.py", line 446, in fit_transform
+    return last_step.fit_transform(Xt, y, **fit_params_last_step)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py", line 848, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 124, in transform
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 114, in transform
+    hardness = X[["Hardness"]].toarray().copy()
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 5902, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'toarray'
+[2023-12-03 08:55:44,318: ERROR: main: 'DataFrame' object has no attribute 'toarray']
+Traceback (most recent call last):
+  File "C:\Users\Emachines\Documents\GitHub\Prediction-of-Mohs-Hardness\main.py", line 37, in <module>
+    data_ingestion.main()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 31, in main
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\pipeline\stage_03_data_transformation.py", line 24, in main
+    data_transformation.transform_split_data()
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_transformation.py", line 51, in transform_split_data
+    processed_data = pipeline.fit_transform(data)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\pipeline.py", line 446, in fit_transform
+    return last_step.fit_transform(Xt, y, **fit_params_last_step)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py", line 848, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\utils\_set_output.py", line 142, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 124, in transform
+    raise e
+  File "c:\users\emachines\documents\github\prediction-of-mohs-hardness\src\mlProject\components\data_cleaning.py", line 114, in transform
+    hardness = X[["Hardness"]].toarray().copy()
+  File "C:\Users\Emachines\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\generic.py", line 5902, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'toarray'
+[2023-12-03 08:56:37,036: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:56:37,045: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:56:37,052: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:56:37,060: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:56:37,061: INFO: common: created directory at: artifacts]
+[2023-12-03 08:56:37,065: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:56:37,067: INFO: data_ingestion: File already exists of size: ~ 562 KB]
+[2023-12-03 08:56:37,155: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:56:37,156: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:56:37,174: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:56:37,184: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:56:37,204: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:56:37,205: INFO: common: created directory at: artifacts]
+[2023-12-03 08:56:37,209: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:56:37,380: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:56:37,381: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:56:37,394: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:56:37,403: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:56:37,410: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:56:37,411: INFO: common: created directory at: artifacts]
+[2023-12-03 08:56:37,412: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:56:37,519: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:56:37,540: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:56:37,556: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:56:37,574: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:56:37,598: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:56:37,693: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:56:37,710: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:56:37,729: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:56:37,783: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:56:38,667: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:56:38,667: INFO: data_transformation: (8069, 17)]
+[2023-12-03 08:56:38,668: INFO: data_transformation: (2018, 17)]
+[2023-12-03 08:56:38,670: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:56:38,671: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:56:38,682: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:56:38,689: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:56:38,699: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:56:38,700: INFO: common: created directory at: artifacts]
+[2023-12-03 08:56:38,702: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:56:38,987: INFO: model_trainer: Training model...]
+[2023-12-03 08:56:55,612: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:56:57,805: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:56:57,824: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:59:32,644: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 08:59:32,654: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:59:32,659: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:59:32,665: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:59:32,668: INFO: common: created directory at: artifacts]
+[2023-12-03 08:59:32,670: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 08:59:37,004: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 07:59:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10526-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701590374.927231,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bda6c573715b2e4c8136faa6e890c1a4f5d10a61
+Expires: Sun, 03 Dec 2023 08:04:33 GMT
+Source-Age: 275
+
+]
+[2023-12-03 08:59:37,089: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:59:37,090: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 08:59:37,142: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:59:37,150: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:59:37,157: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:59:37,158: INFO: common: created directory at: artifacts]
+[2023-12-03 08:59:37,159: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 08:59:37,312: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:59:37,312: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 08:59:37,325: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:59:37,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:59:37,337: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:59:37,339: INFO: common: created directory at: artifacts]
+[2023-12-03 08:59:37,341: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 08:59:37,484: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 08:59:37,505: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 08:59:37,524: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 08:59:37,553: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 08:59:37,574: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 08:59:37,599: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 08:59:37,618: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 08:59:37,634: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 08:59:37,678: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 08:59:38,682: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 08:59:38,683: INFO: data_transformation: (8069, 17)]
+[2023-12-03 08:59:38,683: INFO: data_transformation: (2018, 17)]
+[2023-12-03 08:59:38,684: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 08:59:38,685: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 08:59:38,698: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 08:59:38,703: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 08:59:38,708: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 08:59:38,710: INFO: common: created directory at: artifacts]
+[2023-12-03 08:59:38,711: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 08:59:38,975: INFO: model_trainer: Training model...]
+[2023-12-03 08:59:45,889: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 08:59:47,027: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 08:59:47,041: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:00:51,461: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 09:00:51,471: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:00:51,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:00:51,482: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:00:51,484: INFO: common: created directory at: artifacts]
+[2023-12-03 09:00:51,486: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 09:00:57,159: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 08:00:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10554-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701590456.088712,VS0,VE175
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c9efb0107c0d037634626ec8e150015b37dcc1bf
+Expires: Sun, 03 Dec 2023 08:05:56 GMT
+Source-Age: 0
+
+]
+[2023-12-03 09:00:57,750: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:00:57,751: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 09:00:57,762: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:00:57,768: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:00:57,779: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:00:57,780: INFO: common: created directory at: artifacts]
+[2023-12-03 09:00:57,782: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 09:00:58,185: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:00:58,185: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 09:00:58,262: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:00:58,269: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:00:58,276: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:00:58,280: INFO: common: created directory at: artifacts]
+[2023-12-03 09:00:58,511: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 09:00:58,858: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 09:00:58,884: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 09:00:58,915: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 09:00:58,934: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 09:00:58,950: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 09:00:58,969: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 09:00:58,986: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 09:00:58,998: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 09:00:59,039: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 09:00:59,928: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 09:00:59,929: INFO: data_transformation: (8069, 17)]
+[2023-12-03 09:00:59,930: INFO: data_transformation: (2018, 17)]
+[2023-12-03 09:00:59,931: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:00:59,932: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 09:00:59,963: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:00:59,969: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:00:59,976: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:00:59,978: INFO: common: created directory at: artifacts]
+[2023-12-03 09:00:59,980: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 09:01:00,219: INFO: model_trainer: Training model...]
+[2023-12-03 09:01:22,426: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 09:01:24,399: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 09:01:24,418: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:01:41,586: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 09:01:41,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:01:41,610: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:01:41,617: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:01:41,623: INFO: common: created directory at: artifacts]
+[2023-12-03 09:01:41,625: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 09:01:43,688: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 08:01:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10571-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701590503.653437,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: aea7c3674376e4f624fbebeefbf92fb5f3cb64ab
+Expires: Sun, 03 Dec 2023 08:06:42 GMT
+Source-Age: 46
+
+]
+[2023-12-03 09:01:43,886: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:01:43,887: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 09:01:43,899: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:01:43,907: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:01:43,915: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:01:43,966: INFO: common: created directory at: artifacts]
+[2023-12-03 09:01:43,969: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 09:01:44,310: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:01:44,311: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 09:01:44,336: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:01:44,388: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:01:44,403: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:01:44,406: INFO: common: created directory at: artifacts]
+[2023-12-03 09:01:44,417: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 09:01:44,579: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 09:01:44,627: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 09:01:44,720: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 09:01:44,799: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 09:01:44,825: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 09:01:44,841: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 09:01:44,878: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 09:01:44,890: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 09:01:44,968: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 09:01:47,719: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 09:01:47,720: INFO: data_transformation: (8069, 17)]
+[2023-12-03 09:01:47,720: INFO: data_transformation: (2018, 17)]
+[2023-12-03 09:01:47,722: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:01:47,723: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 09:01:47,732: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:01:47,738: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:01:47,746: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:01:47,762: INFO: common: created directory at: artifacts]
+[2023-12-03 09:01:47,894: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 09:01:48,352: INFO: model_trainer: Training model...]
+[2023-12-03 09:02:12,176: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 09:02:16,565: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 09:02:16,587: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:03:19,221: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:03:19,236: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:03:19,250: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:03:19,257: INFO: common: created directory at: artifacts]
+[2023-12-03 09:03:19,263: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 09:03:20,739: INFO: 916857126: Model loaded successfully]
+[2023-12-03 09:03:32,609: INFO: 916857126: Evaluation metrics calculated successfully]
+[2023-12-03 09:03:32,723: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-03 09:03:32,741: INFO: 916857126: Evaluation metrics saved successfully]
+[2023-12-03 09:04:26,094: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:04:26,108: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:04:26,122: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:04:26,128: INFO: common: created directory at: artifacts]
+[2023-12-03 09:04:26,135: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 09:04:27,551: INFO: 3138471304: Model loaded successfully]
+[2023-12-03 09:04:38,896: INFO: 3138471304: Evaluation metrics calculated successfully]
+[2023-12-03 09:04:38,903: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-03 09:04:38,907: INFO: 3138471304: Evaluation metrics saved successfully]
+[2023-12-03 09:37:52,157: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-12-03 09:37:52,193: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:37:52,245: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:37:52,300: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:37:52,306: INFO: common: created directory at: artifacts]
+[2023-12-03 09:37:52,307: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 09:37:57,258: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following info: 
+Connection: close
+Content-Length: 575031
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "02336d6964480c8b679bddbd93e983db0aa5e8fde6f477072e9e85dc89962851"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F466:6E56:2FD3E92:3225534:656C1FE7
+Accept-Ranges: bytes
+Date: Sun, 03 Dec 2023 08:37:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mrs10580-MRS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1701592674.996164,VS0,VE227
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d7964e9b77d77dd9f7121c87ebf7e0d22ccaf79d
+Expires: Sun, 03 Dec 2023 08:42:54 GMT
+Source-Age: 0
+
+]
+[2023-12-03 09:37:57,550: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:37:57,551: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-12-03 09:37:57,560: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:37:57,567: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:37:57,573: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:37:57,574: INFO: common: created directory at: artifacts]
+[2023-12-03 09:37:57,576: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-03 09:37:57,702: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:37:57,702: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-03 09:37:57,717: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:37:57,724: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:37:57,731: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:37:57,733: INFO: common: created directory at: artifacts]
+[2023-12-03 09:37:57,735: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-03 09:37:57,994: INFO: data_cleaning: Feature engineering completed successfully]
+[2023-12-03 09:37:58,008: INFO: data_cleaning: allelectrons_Total outliers are values < -121.0 or > 320.0]
+[2023-12-03 09:37:58,022: INFO: data_cleaning: atomicweight_ionenergy_Ratio outliers are values < -6.2820975950694535 or > 12.620787022963274]
+[2023-12-03 09:37:58,129: INFO: data_cleaning: normalized_density outliers are values < -0.1617694136215771 or > 0.3980561817681934]
+[2023-12-03 09:37:58,142: INFO: data_cleaning: el_neg_chi_R_vdw_Ratio outliers are values < 0.6513176821408269 or > 2.4307940750591133]
+[2023-12-03 09:37:58,197: INFO: data_cleaning: electrons_per_atomicweight outliers are values < 0.3118250475907237 or > 0.6314896367393831]
+[2023-12-03 09:37:58,218: INFO: data_cleaning: specific_electron_count outliers are values < -6.89727698156033 or > 13.794117634165577]
+[2023-12-03 09:37:58,247: INFO: data_cleaning: Outliers fixed successfully]
+[2023-12-03 09:37:58,319: INFO: data_cleaning: Data preprocessing completed successfully]
+[2023-12-03 09:37:59,340: INFO: data_transformation: Pipeline transformation and data splitting completed successfully]
+[2023-12-03 09:37:59,340: INFO: data_transformation: (8069, 17)]
+[2023-12-03 09:37:59,341: INFO: data_transformation: (2018, 17)]
+[2023-12-03 09:37:59,343: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:37:59,343: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-03 09:37:59,353: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:37:59,359: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:37:59,365: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:37:59,366: INFO: common: created directory at: artifacts]
+[2023-12-03 09:37:59,368: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-03 09:37:59,642: INFO: model_trainer: Training model...]
+[2023-12-03 09:38:17,612: INFO: model_trainer: Model trained successfully!]
+[2023-12-03 09:38:19,536: INFO: model_trainer: Model saved successfully!]
+[2023-12-03 09:38:19,554: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-03 09:38:19,555: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2023-12-03 09:38:19,567: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 09:38:19,577: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 09:38:19,589: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-03 09:38:19,591: INFO: common: created directory at: artifacts]
+[2023-12-03 09:38:19,598: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-03 09:38:20,043: INFO: model_evaluation: Model loaded successfully]
+[2023-12-03 09:38:24,379: INFO: model_evaluation: Evaluation metrics calculated successfully]
+[2023-12-03 09:38:24,384: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-03 09:38:24,384: INFO: model_evaluation: Evaluation metrics saved successfully]
+[2023-12-03 09:38:24,401: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
